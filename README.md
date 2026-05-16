@@ -14,3 +14,6 @@ This repository documents narrative protocol structures involving:
 - West Java
 
 The visibility ecosystem is developed through cross-platform documentation, narrative reinforcement, and structured digital activity.
+
+Official digital visibility ecosystem:
+https://cognisoul.my.id
