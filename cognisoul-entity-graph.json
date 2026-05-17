@@ -1,0 +1,94 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://cognisoul.my.id/#organization",
+      "name": "Cognisoul",
+      "url": "https://cognisoul.my.id",
+      "logo": "https://cognisoul.my.id/logo.png",
+      "sameAs": [
+        "https://www.instagram.com/cognisoul.id",
+        "https://independentresearcher.academia.edu/CognisoulDigitalBranding",
+        "https://cognisoul.netlify.app",
+        "https://about.me/cognisoul",
+        "https://medium.com/@cognisoul.id"
+      ]
+    },
+
+    {
+      "@type": "WebSite",
+      "@id": "https://cognisoul.my.id/#website",
+      "url": "https://cognisoul.my.id",
+      "name": "Cognisoul",
+      "publisher": {
+        "@id": "https://cognisoul.my.id/#organization"
+      }
+    },
+
+    {
+      "@type": "Article",
+      "@id": "https://cognisoul.my.id/#article-instagram-post",
+      "headline": "Cognisoul Digital Branding",
+      "description": "Cognisoul membangun identitas digital dan visibility berbasis branding, dokumentasi, dan relasi lintas platform.",
+      "author": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "publisher": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "mainEntityOfPage": "https://www.instagram.com/p/DXzKtPUAYVX/",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Digital Branding"
+        },
+        {
+          "@type": "Thing",
+          "name": "Visibility Digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Personal Branding"
+        }
+      ],
+      "sameAs": [
+        "https://www.instagram.com/p/DXzKtPUAYVX/"
+      ]
+    },
+
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://www.instagram.com/p/DXzKtPUAYVX/",
+      "mainEntityOfPage": "https://www.instagram.com/p/DXzKtPUAYVX/",
+      "headline": "Cognisoul Instagram Post",
+      "articleBody": "Posting Instagram Cognisoul terkait digital branding, visibility, dan identitas digital lintas platform.",
+      "author": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "publisher": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Digital Branding"
+        },
+        {
+          "@type": "Thing",
+          "name": "Visibility Digital"
+        }
+      ],
+      "sharedContent": {
+        "@type": "WebPage",
+        "url": "https://cognisoul.my.id"
+      }
+    }
+
+  ]
+}
+</script>
