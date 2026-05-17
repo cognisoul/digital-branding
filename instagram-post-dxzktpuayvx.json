@@ -1,0 +1,86 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://cognisoul.my.id/#organization",
+      "name": "Cognisoul",
+      "url": "https://cognisoul.my.id/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cognisoul.my.id/assets/images/logo-cognisoul.png"
+      },
+      "description": "Cognisoul adalah layanan digital branding yang membantu bisnis membangun identitas melalui aktivitas nyata, narasi terstruktur, dan visibilitas digital.",
+      "sameAs": [
+        "https://www.instagram.com/cognisoul.id/",
+        "https://medium.com/@cognisoul.id",
+        "https://about.me/cognisoul",
+        "https://cognisoul.netlify.app/",
+        "https://independentresearcher.academia.edu/CognisoulDigitalBranding"
+      ]
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://www.instagram.com/p/DXzKtPUAYVX/",
+      "url": "https://www.instagram.com/p/DXzKtPUAYVX/",
+      "name": "Instagram Post Cognisoul",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Instagram",
+        "url": "https://www.instagram.com/"
+      },
+      "about": {
+        "@id": "https://cognisoul.my.id/#organization"
+      }
+    },
+
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://www.instagram.com/p/DXzKtPUAYVX/#post",
+      "mainEntityOfPage": {
+        "@id": "https://www.instagram.com/p/DXzKtPUAYVX/"
+      },
+      "headline": "Cognisoul Digital Branding",
+      "articleBody": "Posting Instagram Cognisoul terkait digital branding, visibility digital, personal branding, dan identitas lintas platform.",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "author": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "publisher": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Digital Branding"
+        },
+        {
+          "@type": "Thing",
+          "name": "Visibility Digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Personal Branding"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Instagram Visibility"
+        },
+        {
+          "@type": "Thing",
+          "name": "Entity Branding"
+        }
+      ],
+      "sharedContent": {
+        "@type": "WebPage",
+        "url": "https://cognisoul.my.id/"
+      }
+    }
+
+  ]
+}
