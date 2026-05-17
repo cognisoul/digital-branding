@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+
+    {
+      "@type": "Organization",
+      "@id": "https://cognisoul.my.id/#organization",
+      "name": "Cognisoul",
+      "url": "https://cognisoul.my.id/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cognisoul.my.id/assets/images/logo-cognisoul.png"
+      },
+      "description": "Cognisoul adalah layanan digital branding yang membantu bisnis membangun identitas melalui aktivitas nyata, narasi terstruktur, dan visibilitas digital.",
+      "sameAs": [
+        "https://www.instagram.com/cognisoul.id/",
+        "https://medium.com/@cognisoul.id",
+        "https://about.me/cognisoul",
+        "https://cognisoul.netlify.app/",
+        "https://independentresearcher.academia.edu/CognisoulDigitalBranding"
+      ]
+    },
+
+    {
+      "@type": "WebPage",
+      "@id": "https://www.instagram.com/p/DXkt4YfAd3L/",
+      "url": "https://www.instagram.com/p/DXkt4YfAd3L/",
+      "name": "Instagram Post Cognisoul",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "Instagram",
+        "url": "https://www.instagram.com/"
+      },
+      "about": {
+        "@id": "https://cognisoul.my.id/#organization"
+      }
+    },
+
+    {
+      "@type": "SocialMediaPosting",
+      "@id": "https://www.instagram.com/p/DXkt4YfAd3L/#post",
+      "mainEntityOfPage": {
+        "@id": "https://www.instagram.com/p/DXkt4YfAd3L/"
+      },
+      "headline": "Cognisoul Digital Branding Bandung",
+      "articleBody": "Posting Instagram Cognisoul terkait digital branding Bandung, visibility digital, personal branding, dan penguatan identitas digital lintas platform.",
+      "datePublished": "2026-05-18",
+      "dateModified": "2026-05-18",
+      "author": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "publisher": {
+        "@id": "https://cognisoul.my.id/#organization"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "Digital Branding Bandung"
+        },
+        {
+          "@type": "Thing",
+          "name": "Visibility Digital"
+        },
+        {
+          "@type": "Thing",
+          "name": "Personal Branding"
+        }
+      ],
+      "mentions": [
+        {
+          "@type": "Thing",
+          "name": "Instagram Visibility"
+        },
+        {
+          "@type": "Thing",
+          "name": "Entity Branding"
+        },
+        {
+          "@type": "Thing",
+          "name": "Semantic Identity"
+        }
+      ],
+      "sharedContent": {
+        "@type": "WebPage",
+        "url": "https://cognisoul.my.id/"
+      }
+    }
+
+  ]
+}
